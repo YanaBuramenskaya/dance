@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*.header{*/
+/*    background-color: #ECECEC;*/
+/*    padding: 20px 100px;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 30px;*/
+/*    border-radius: 20px*/
+
+/*}*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: #C2B9B0;
+}
+
+main{
+    margin: 50px 50px;
+    width: 50%;
+    float: left;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header li a:hover {
+    background-color: #111;
+}
+
+.header .page-icon{
+
+    cursor: pointer;
+    transform: scale(2.5);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+
+main .newsItem{
+    margin-bottom: 30px;
+    background-color: #AFD275;
+    padding: 20px;
+    border-radius: 20px;
+}
