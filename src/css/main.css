@@ -1,107 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Source+Code+Pro:wght@400;600&display=swap');
 
 
 * {
     margin: 0;
     padding: 0;
 }
-/*.header{*/
-/*    background-color: #ECECEC;*/
-/*    padding: 20px 100px;*/
-/*    font-family: 'Poppins', sans-serif;*/
-/*    font-weight: 600;*/
-/*    font-size: 30px;*/
-/*    border-radius: 20px*/
 
-/*}*/
+
 body{
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Source Code Pro', monospace;
     font-weight: 300;
-    background-color: #C2B9B0;
+    background-color: #EDCFA9;
+    background-image: url('back.jpg');
 }
 
 main{
-    margin: 50px 50px;
-    width: 50%;
+
+    display: grid;
+
+    /* Change values to experiment*/
+    align-items: center;
+    justify-content: center;
     float: left;
 }
 
-.header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border-radius: 20px;
-}
 
-.header li {
-    float: left;
-}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
 
-.header li a {
-    font-weight: 600;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    display: block;
-    color: white;
+main .beautiful-logo{
+    z-index: 0;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 6rem;
+    margin-top: 150px;
+    padding-left: 90%;
+    text-shadow: -15px 5px 20px #ced0d3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0.02em;
     text-align: center;
-    padding: 20px 50px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-.header li a:hover {
-    background-color: #111;
-}
-
-.header .page-icon{
-
-    cursor: pointer;
-    transform: scale(2.5);
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 30px 50px;
-    text-decoration: none;
-}
-
-main .newsItem{
-
-    background-color: #AFD275;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: justify;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-
-main ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    border-radius: 20px;
+    color: #F9f1cc;
+    text-shadow: 5px 5px 0px #FFB650,
+    10px 10px 0px #FFD662,
+    15px 15px 0px  #D29969,
+    20px 20px 0px #ff6900,
+    25px 25px 0px #AA4A30,
+    30px 30px 0px #BA7967;
 }
 
 
-main li a {
-    font-weight: 600;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 50px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-main li a:hover {
-    background-color: #111;
-}

@@ -41,6 +41,7 @@ class App extends React.Component {
                     <Route path="/calendar" element={<Calendar/>}/>
                     <Route path="/" element={
                         <main>
+                            <div className='beautiful-logo'>AYAdance</div>
                             <News news={this.state.news}/>
                         </main>}/>
                 </Routes>

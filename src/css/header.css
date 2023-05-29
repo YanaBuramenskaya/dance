@@ -1,0 +1,52 @@
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(206, 140, 90, 0.7);
+    z-index: 1;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header li a:hover {
+    background-color: #E89F71;
+}
+
+.header .page-icon{
+
+    cursor: pointer;
+    transform: scale(2.5);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+
+.header .profile-icon{
+    cursor: pointer;
+    transform: scale(2.5);
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 30px 50px;
+    text-decoration: none;
+}

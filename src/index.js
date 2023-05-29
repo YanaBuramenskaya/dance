@@ -5,6 +5,8 @@ import App from './App';
 
 import './css/main.css'
 import './css/calendar.css'
+import './css/news.css'
+import './css/header.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);

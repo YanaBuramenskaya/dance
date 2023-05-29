@@ -6,9 +6,7 @@ class News extends React.Component {
         return (
             <div className='news'>
                 {this.props.news.map((el) => (
-                    <div>
-                        <NewsItem key={el.id} news={el}/>
-                    </div>
+                    <NewsItem key={el.id} news={el}/>
                 ))}
             </div>
         )
