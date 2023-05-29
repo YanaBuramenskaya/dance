@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
 import News from "./components/News";
+import Calendar from "./components/Calendar";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-class App extends React.Component{
+class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            news : [
+            news: [
                 {
                     id: 1,
                     title: 'Мы открылись!!!',
@@ -20,16 +22,22 @@ class App extends React.Component{
             ]
         }
     }
-  render() {
-    return (
-        <div>
-          <Header/>
-          <main>
-            <News news={this.state.news}/>
-          </main>
-        </div>
-    );
-  }
+
+    render() {
+        return (
+            <Router>
+                <Header/>
+                <Routes>
+                    <Route path="/calendar" element={<Calendar/>}/>
+                    <Route path="/" element={
+                        <main>
+                            <News news={this.state.news}/>
+                        </main>}/>
+                </Routes>
+            </Router>
+        )
+            ;
+    }
 }
 
 export default App;

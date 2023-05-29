@@ -9,8 +9,8 @@ class Header extends React.Component {
             <header className='header'>
                 <ul>
                     <li><MdSportsMartialArts className='page-icon'/></li>
-                    <li><a href = "#">Главная</a></li>
-                    <li><a href = "#">Календарь</a></li>
+                    <li><a href = "/">Главная</a></li>
+                    <li><a href = "/calendar">Календарь</a></li>
                 </ul>
             </header>
         )
