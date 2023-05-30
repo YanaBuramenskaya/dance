@@ -6,8 +6,8 @@
 
 # Описание модулей
 
-Frontend часть [AYADance frontend](https://github.com/facebook/create-react-app)\
-Backend часть [AYADance backend](https://github.com/facebook/create-react-app)\
+Frontend часть [AYADance frontend](https://github.com/YanaBuramenskaya/dance))\
+Backend часть [AYADance backend](https://github.com/aleksseii/DanceStudio-Backend/blob/master/migrations/scripts/V1__Created_data_table.sql)
 
 # Запуск приложения
 
