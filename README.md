@@ -6,8 +6,10 @@
 
 # Описание модулей
 
-...
-
+Frontend часть [AYADance frontend](https://github.com/facebook/create-react-app)\
+Описание\
+Backend часть [AYADance backend](https://github.com/facebook/create-react-app)\
+Описание
 # Запуск приложения
 
 ...
