@@ -1,5 +1,24 @@
 # AYADance
 
+Этот проект является веб-решением для студии танцев, реализующий взаимодействие между учениками и преподавателями.\
+Применяемые технологии: React ...?\
+Архитектура: ...?
+
+# Описание модулей
+
+...
+
+# Запуск приложения
+
+...
+
+# Авторы
+
+git:\
+YanaBuramenskaya (Frontend),\
+aleksseii (Backend),\
+ALISA1003 (UI-UX designer).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
