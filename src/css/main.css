@@ -8,7 +8,7 @@
 }
 
 
-body{
+body {
     /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Source Code Pro', monospace;
     font-weight: 300;
@@ -16,7 +16,7 @@ body{
     background-image: url('back.jpg');
 }
 
-main{
+main {
 
     display: grid;
 
@@ -29,7 +29,7 @@ main{
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
 
-main .beautiful-logo{
+main .beautiful-logo {
     z-index: 0;
     font-family: 'Calligraffitti', cursive;
     font-weight: 700;
@@ -39,13 +39,13 @@ main .beautiful-logo{
     text-shadow: -15px 5px 20px #ced0d3;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     letter-spacing: 0.02em;
     text-align: center;
     color: #F9f1cc;
     text-shadow: 5px 5px 0px #FFB650,
     10px 10px 0px #FFD662,
-    15px 15px 0px  #D29969,
+    15px 15px 0px #D29969,
     20px 20px 0px #ff6900,
     25px 25px 0px #AA4A30,
     30px 30px 0px #BA7967;
