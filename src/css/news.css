@@ -1,12 +1,12 @@
 main .newsItem{
     display: grid;
-    background-color: rgb(213, 174, 128);
+    background-image: linear-gradient(to right bottom, rgba(206, 140, 90, 0.7), rgb(220, 193, 159));
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 20px;
     text-align: justify;
-
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
 }
 
 main img {
