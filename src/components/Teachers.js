@@ -3,7 +3,7 @@ import ava from './ava.svg'
 
 class Teachers extends React.Component {
     render() {
-        return (<div className="teachers-contain">
+        return (<div className="teachers">
                 <ul>
                     <li>
                         <img src={ava}

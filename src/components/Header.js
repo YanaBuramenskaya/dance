@@ -12,6 +12,7 @@ class Header extends React.Component {
                     <li><a href = "/">Главная</a></li>
                     <li><a href = "/calendar">Календарь</a></li>
                     <li><a href = "/teachers">Преподаватели</a></li>
+                    <li><a href = "/about_us">О нас</a></li>
                 </ul>
             </header>
         )

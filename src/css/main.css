@@ -30,7 +30,7 @@ main {
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
 
-main .beautiful-logo {
+.beautiful-logo {
     z-index: 0;
     font-family: 'Calligraffitti', cursive;
     font-weight: 700;
