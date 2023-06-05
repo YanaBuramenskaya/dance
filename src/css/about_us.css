@@ -1,0 +1,33 @@
+.about_us{
+    display: grid;
+    padding: 25px;
+}
+.about_us img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0% 17.5% 0% 17.5%;
+    float: left;
+    height: auto;
+    width: 75%;
+
+}
+.about_us h3{
+    padding: .55em 33%;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.about_us p{
+    padding: 10px 25px 25px 10px;
+    text-align: justify;
+    margin: 5px 20px 5px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
+    background-image: linear-gradient(to right bottom, rgba(222, 211, 207, 0.7), rgb(224, 213, 155));
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start
+}

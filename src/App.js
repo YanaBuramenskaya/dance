@@ -2,9 +2,11 @@ import React from "react";
 import Header from "./components/Header";
 import News from "./components/News";
 import Calendar from "./components/Calendar";
+import Teachers from "./components/Teachers";
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ioga from './images/ioga.jpg'
 import tansor from './images/tansor.jpg'
+import AboutUs from "./components/AboutUs";
 
 
 class App extends React.Component {
@@ -41,6 +43,8 @@ class App extends React.Component {
                 <Header/>
                 <Routes>
                     <Route path="/calendar" element={<Calendar/>}/>
+                    <Route path="/teachers" element={<Teachers/>}/>
+                    <Route path="/about_us" element={<AboutUs/>}/>
                     <Route path="/" element={
                         <main>
                             <div className='beautiful-logo'>AYAdance</div>
