@@ -11,6 +11,7 @@ class Header extends React.Component {
                     <li><MdSportsMartialArts className='page-icon'/></li>
                     <li><a href = "/">Главная</a></li>
                     <li><a href = "/calendar">Календарь</a></li>
+                    <li><a href = "/teachers">Преподаватели</a></li>
                 </ul>
             </header>
         )
