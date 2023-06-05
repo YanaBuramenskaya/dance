@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
 main .newsItem{
     display: grid;
-    background-image: linear-gradient(to right bottom, rgba(206, 140, 90, 0.7), rgb(220, 193, 159));
+    background-image: linear-gradient(to right bottom, rgba(222, 211, 207, 0.7), rgb(224, 213, 155));
     padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
-    border-radius: 20px;
     text-align: justify;
     box-shadow:  0.4em 0.4em 5px rgba(122,122,122,0.5);
 }
@@ -34,6 +35,9 @@ main .news{
 main .textItem{
     padding: 10px;
     /*background-color: #ffeccd;*/
-    background-image: linear-gradient(to bottom right, #f6e4d3, rgb(232, 191, 158));
+    background-color: rgba(253, 232, 127, 0.71);
     border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
 }

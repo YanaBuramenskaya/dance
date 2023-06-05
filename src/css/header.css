@@ -6,7 +6,7 @@
     overflow: hidden;
     position: fixed;
     width: 100%;
-    background-color: rgba(206, 140, 90, 0.7);
+    background-color: rgba(253, 232, 127, 0.71);
     z-index: 1;
 }
 
@@ -19,7 +19,7 @@
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     display: block;
-    color: white;
+    color: #938989;
     text-align: center;
     padding: 20px 50px;
     text-decoration: none;

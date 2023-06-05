@@ -6,7 +6,9 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ioga from './images/ioga.jpg'
 import tansor from './images/tansor.jpg'
 
+
 class App extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = {
