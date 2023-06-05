@@ -1,3 +1,32 @@
 .calendar-contain{
-    padding: 100px;
+    width: 100%;
+    padding-left: 15%;
+    padding-top: 100px;
+    font-size: 1.1rem;
+}
+
+.calendar-contain table{
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    background-image: linear-gradient(to right bottom, rgb(248, 248, 245, 0.5), rgb(255, 254, 250, 0.5));
+}
+
+.calendar-contain th, td{
+    border: 1px solid grey;
+}
+
+.calendar-item{
+
+}
+
+.calendar-item ul{
+    background-color: rgb(249, 234, 160, 0.6);
+    list-style-type: none
+}
+
+.calendar-item .color-line{
+    background-color: #aff89f;
+    color: brown;
+    font-size: 0.5rem;
 }
