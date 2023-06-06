@@ -7,6 +7,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ioga from './images/ioga.jpg'
 import tansor from './images/tansor.jpg'
 import AboutUs from "./components/AboutUs";
+import Footer from "./components/Footer";
 
 
 class App extends React.Component {
@@ -51,6 +52,7 @@ class App extends React.Component {
                             <News news={this.state.news}/>
                         </main>}/>
                 </Routes>
+                <Footer/>
             </Router>
         )
             ;

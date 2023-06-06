@@ -1,0 +1,33 @@
+.footer{
+    background: #676363;
+    color: #dcdcdc;
+    padding: 25px 50px 25px 50px;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+.footer p{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+.footer .contacts{
+    padding-left: 10%;
+}
+.footer .links{
+    padding-left: 20%;
+}
+.footer a{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-copy{
+   padding-left: 20%;
+}
+
