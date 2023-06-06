@@ -9,6 +9,7 @@ import './css/news.css'
 import './css/header.css'
 import './css/teachers.css'
 import './css/about_us.css'
+import './css/footer.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
